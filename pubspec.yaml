@@ -1,0 +1,46 @@
+name: hadith_app
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+
+  audioplayer: 0.8.1
+  audioplayer_web: 0.7.1
+  path_provider:
+  flutter_svg:
+  audioplayers: ^0.15.1
+  cupertino_icons: ^0.1.2
+  share: ^0.6.3+5
+  google_fonts:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+flutter_icons:
+  image_path: "assets/launcher/hqdefault.png"
+  ios: true
+  android: true
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/audio/
+
